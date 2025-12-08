@@ -2,6 +2,8 @@
 
 A fast, ultra-minimal Zola theme by [jimmyff](https://www.jimmyff.co.uk). Perfect PageSpeed scores (100 performance, 100 accessibility, 100 best practices, 100 SEO). See the [demo](https://www.jimmyff.co.uk/zola-zap/) or read the [blog post](https://www.jimmyff.co.uk/blog/zap-theme/).
 
+[![Screenshot](screenshot.png)](https://www.jimmyff.co.uk/zola-zap/)
+
 ## Features
 
 - Inline CSS (~2KB) with OKLCH colors

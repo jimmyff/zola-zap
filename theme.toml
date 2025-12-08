@@ -1,13 +1,10 @@
 name = "Zap"
-description = "A super minimal, TUI-style Zola theme"
+description = "A fast, ultra-minimal Zola theme"
 license = "MIT"
 homepage = "https://github.com/jimmyff/zola-zap"
 min_version = "0.17.0"
+demo = "https://www.jimmyff.co.uk/zola-zap/"
 
 [author]
 name = "jimmyff"
 homepage = "https://www.jimmyff.co.uk"
-
-[original]
-author = "jimmyff"
-repo = "https://github.com/jimmyff/zola-zap"
