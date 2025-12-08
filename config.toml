@@ -1,5 +1,5 @@
 title = "Zap"
-description = "A super minimal, TUI-style Zola theme"
+description = "A fast, ultra-minimal theme for Zola"
 
 base_url = "https://www.jimmyff.co.uk/zola-zap"
 
@@ -38,7 +38,16 @@ keywords = "zola, theme, minimal, tui"
 # Enable inline SVG icons (uses sprite sheet)
 inline_icons = true
 icon_path = "static/icons/"
-icons = ["home", "chat", "color-palette", "idea", "search", "light", "asleep", "rss"]
+icons = [
+  "home",
+  "chat",
+  "color-palette",
+  "idea",
+  "search",
+  "light",
+  "asleep",
+  "rss",
+]
 
 # Search page path
 search_path = "$BASE_URL/search/"
@@ -56,9 +65,9 @@ thumbnail_sizes = [128, 256]
 
 # Navigation menu (icon files from /static/icons/)
 menu_links = [
-    { url = "$BASE_URL/", name = "Home", icon = "home.svg" },
-    { url = "$BASE_URL/posts/", name = "Posts", icon = "chat.svg" },
-    { url = "$BASE_URL/gallery/", name = "Gallery", icon = "color-palette.svg" },
-    { url = "$BASE_URL/tags/", name = "Tags", icon = "idea.svg" },
-    { url = "$BASE_URL/search/", name = "Search", icon = "search.svg" },
+  { url = "$BASE_URL/", name = "Home", icon = "home.svg" },
+  { url = "$BASE_URL/posts/", name = "Posts", icon = "chat.svg" },
+  { url = "$BASE_URL/gallery/", name = "Gallery", icon = "color-palette.svg" },
+  { url = "$BASE_URL/tags/", name = "Tags", icon = "idea.svg" },
+  { url = "$BASE_URL/search/", name = "Search", icon = "search.svg" },
 ]
