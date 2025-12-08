@@ -75,7 +75,7 @@ nav{display:flex;gap:.5rem;margin:1.5rem 0}nav a{flex:1;display:flex;flex-direct
     <header>
         <div class="s" style="display:flex;justify-content:space-between;align-items:center">
             <span><strong>{{ config.title }}</strong>{% if config.description %}<span class="desc"> · {{ config.description }}</span>{% endif %}</span>
-            <a href="#" onclick="T();return false" class="theme">{% if config.extra.inline_icons %}{{ icons::icon(name="light.svg") }}{{ icons::icon(name="asleep.svg") }}{% else %}<img src="/icons/light.svg" alt="Light mode"><img src="/icons/asleep.svg" alt="Dark mode">{% endif %}</a>
+            <a href="#" onclick="T();return false" class="theme" aria-label="Toggle theme" title="Toggle theme">{% if config.extra.inline_icons %}{{ icons::icon(name="light.svg") }}{{ icons::icon(name="asleep.svg") }}{% else %}<img src="/icons/light.svg" alt="Light mode"><img src="/icons/asleep.svg" alt="Dark mode">{% endif %}</a>
         </div>
         <hr>
         <nav>
