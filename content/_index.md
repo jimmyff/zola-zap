@@ -8,7 +8,7 @@ images = []
 
 # Zap
 
-A minimal, TUI-style theme for [Zola](https://www.getzola.org/) by [jimmyff](https://www.jimmyff.co.uk).
+A minimal, TUI-style theme for [Zola](https://www.getzola.org/) by [jimmyff](https://www.jimmyff.co.uk). Available on [GitHub](https://github.com/jimmyff/zola-zap).
 
 ## Features
 
