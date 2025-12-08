@@ -1,0 +1,21 @@
+{# SVG Sprite system - loads icons from static/icons/ #}
+{# Configure in config.toml: [extra] icons = ["home", "search", "rss", "light", "asleep"] #}
+
+{# Define the sprite sheet - call once at top of body #}
+{% macro sprite() %}
+{%- set icons = config.extra.icons | default(value=["light", "asleep", "rss"]) -%}
+{%- set_global icon_path = config.extra.icon_path | default(value="themes/zap/static/icons/") -%}
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+{%- for name in icons -%}
+{%- set svg = load_data(path=icon_path ~ name ~ ".svg") -%}
+{%- set symbol_open = '<symbol id="' ~ name ~ '" ' -%}
+{%- set symbol = svg | replace(from="<svg ", to=symbol_open) | replace(from="</svg>", to="</symbol>") | replace(from='xmlns="http://www.w3.org/2000/svg" ', to="") -%}
+{{ symbol | safe }}
+{%- endfor -%}
+</svg>
+{% endmacro sprite %}
+
+{# Reference an icon from the sprite #}
+{% macro icon(name) %}
+<svg><use href="#{{ name | replace(from=".svg", to="") }}"/></svg>
+{%- endmacro icon %}

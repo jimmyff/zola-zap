@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>{{ taxonomy.name | capitalize }}: {{ term.name | capitalize }}</h1>
+{% for year, posts in term.pages | group_by(attribute="year") %}
+<h2>{{ year }}</h2>
+<ul>
+  {% for post in posts %}
+  <li>
+    <time datetime="{{ post.date }}">{{ post.date | date(format='%d %b') }}</time>
+    <a href="{{ post.permalink | safe }}">{{ post.title }}</a>{% if post.draft %} (Draft){% endif %}
+    {{ hooks::posts_below_title(page=post) }}
+  </li>
+  {% endfor %}
+</ul>
+{% endfor %}
+{% endblock content %}

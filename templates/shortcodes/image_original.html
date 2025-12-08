@@ -1,0 +1,3 @@
+
+{% import "macros/images.html" as images -%}
+{{ images::image(path=page.path, src=src, alt=alt, class=class | default(value="") ) }}

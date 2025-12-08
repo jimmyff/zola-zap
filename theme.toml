@@ -1,0 +1,13 @@
+name = "Zap"
+description = "A super minimal, TUI-style Zola theme"
+license = "MIT"
+homepage = "https://github.com/jimmyff/zola-zap"
+min_version = "0.17.0"
+
+[author]
+name = "jimmyff"
+homepage = "https://www.jimmyff.co.uk"
+
+[original]
+author = "jimmyff"
+repo = "https://github.com/jimmyff/zola-zap"

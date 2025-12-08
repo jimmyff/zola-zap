@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{# Page hooks #}
+{% macro post_above_content(page) %}{% endmacro post_above_content %}
+{% macro post_below_content(page) %}{% endmacro post_below_content %}
+{% macro post_below_tags(page) %}{% endmacro post_below_tags %}
+
+{% macro posts_below_title(page) %}
+<span class="description"> {{page.description}} </span>
+{% endmacro posts_below_title %}
+
+
+
+{% macro og_image_tags() %}
+{%- if page.extra.og_preview_img -%}
+{%- set_global url = get_url(path=page.extra.og_preview_img) | safe -%}
+{%- endif -%}
+
+{%- if url -%}
+<meta property="og:image" content="{{ url }}"/>
+{# 
+    <meta property="og:image:width" content="1200"/>
+    <meta property="og:image:height" content="630"/> 
+#}
+{%- endif -%}
+
+{% endmacro og_image_tags %}

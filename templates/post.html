@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+<article>
+  <header>
+    <h1>{{ page.title }}{% if page.draft %} (Draft){% endif %}</h1>
+    <time class="s" datetime="{{ page.date }}">{{ page.date | date(format='%d %b %Y')}}</time>
+  </header>
+  {{ hooks::post_above_content(page=page) }}
+  {{ page.content | safe }}
+  {{ hooks::post_below_content(page=page) }}
+  {% if page.taxonomies is containing ("tags") %}
+  <footer class="s">
+    Tags: {% for tag in page.taxonomies["tags"] %}<a href='{{ config.base_url | safe }}/tags/{{ tag | slugify }}'>{{ tag }}</a>{% if not loop.last %}, {% endif %}{% endfor %}
+  </footer>
+  {% endif %}
+  {{ hooks::post_below_tags(page=page) }}
+</article>
+{% endblock content %}

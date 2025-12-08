@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+<style>input{width:100%;padding:.5rem;background:transparent;border:1px solid;color:inherit;font:inherit;margin-bottom:2rem}</style>
+<h1>Search</h1>
+<input id="search-input" autofocus type="search" placeholder="Search...">
+<div class="search-results">
+  <div class="search-results__items"></div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
+<script src="{{ get_url(path='search_index.en.js')|safe }}"></script>
+<script src="{{ get_url(path='js/search.js')|safe }}"></script>
+{% endblock content %}

@@ -1,0 +1,53 @@
+# Zap
+
+A super minimal, TUI-style Zola theme by [jimmyff](https://www.jimmyff.co.uk).
+
+## Features
+
+- Inline CSS (~2KB) with OKLCH colors
+- Inline SVG icons via spritesheet
+- Responsive grid nav (auto-splits on mobile)
+- Responsive image gallery grid
+- Click-to-enlarge lightbox
+- Responsive images with srcset
+- Light/dark mode toggle
+- OpenGraph & Twitter Cards
+- Atom & RSS feeds
+- Fuse.js search
+
+## Installation
+
+```bash
+cd themes
+git clone https://github.com/jimmyff/zola-zap zap
+```
+
+In your `config.toml`:
+
+```toml
+theme = "zap"
+```
+
+## Configuration
+
+See `config.toml` for available options.
+
+## Icons
+
+Configure which icons to load in `config.toml`:
+
+```toml
+[extra]
+inline_icons = true
+icon_path = "static/icons/"
+icons = ["home", "chat", "search", "light", "asleep", "rss"]
+```
+
+Place SVG icons in your `static/icons/` folder. The theme includes icons from [Carbon Design System](https://carbondesignsystem.com/elements/icons/library/).
+
+## Using the responsive image shortcode
+
+```md
+{{ image(src="yourimage.jpg", alt="This is my image") }}
+```
+

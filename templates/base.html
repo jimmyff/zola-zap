@@ -1,0 +1,116 @@
+{% import "macros/head.html" as head -%}
+{% import "macros/opengraph.html" as social -%}
+{% import "macros/hooks.html" as hooks -%}
+{% import "macros/images.html" as images -%}
+{% import "macros/icons.html" as icons -%}
+<!DOCTYPE html>
+<html lang="en" prefix="og: https://ogp.me/ns#">
+<head>
+    {%- block general_meta -%}
+    {{ head::general_meta() }}
+    {%- endblock general_meta -%}
+    {%- block og_preview -%}
+    {{ social::og_preview() }}
+    {%- endblock og_preview -%}
+    {% block rss -%}
+    <link rel="alternate" type="application/atom+xml" title="{{config.title}}" href="{{ get_url(path='atom.xml',trailing_slash=false)|safe}}">
+    {% endblock rss -%}
+    {% if config.extra.favicon %}<link rel="icon" href="{{ config.extra.favicon }}">{% endif %}
+    {% set nav_count = config.extra.menu_links | length -%}
+    {% if nav_count >= 6 -%}
+    {% set_global items_per_row = ((nav_count + 1) / 2) | round -%}
+    {% else -%}
+    {% set_global items_per_row = nav_count -%}
+    {% endif -%}
+    {% set basis = (100 / items_per_row) | round -%}
+    <style>
+html{font-family:monospace;font-size:1rem;line-height:1.5;margin:auto;max-width:70ch;padding:1.5rem 1em 3em}
+img{max-width:100%}img[src$="#pixelate"]{image-rendering:pixelated}
+h1,h2,h3,h4,h5,h6{font-size:inherit;margin:2rem 0 1em}
+h1::before{content:'# '}
+h2::before{content:'## '}
+h3::before{content:'### '}
+p{text-align:justify}p,ul,ol,.g,article>footer,article>header{margin:0 0 2em}
+pre,blockquote{padding:1.5rem;margin:0 0 1.5rem}pre{overflow-x:auto}blockquote>*:last-child{margin-bottom:0}
+article>img,article>p>img,article>div{display:block;margin-bottom:1.5rem;width:100%}
+.yt{aspect-ratio:16/9;width:100%}.yt iframe{width:100%;height:100%;border:0}
+.s{font-size:.85rem}
+.theme{display:inline-block;width:1.5rem;height:1.5rem}.theme img,.theme svg{width:100%;height:100%}
+html.light .theme img:first-child,html.light .theme svg:first-child,html.dark .theme img:last-child,html.dark .theme svg:last-child{display:none}
+header>div{margin-bottom:1.5rem}footer{margin-top:1.5rem}body>footer{display:flex;justify-content:space-between;flex-wrap:wrap;gap:.5rem}
+body>footer img,body>footer svg{width:1em;height:1em;vertical-align:middle}
+.tags{padding:.5rem 0 0 0}.tags li{display:inline}.tags li+li::before{content:' · '}
+nav{display:flex;gap:.5rem;margin:1.5rem 0}nav a{flex:1;display:flex;flex-direction:column;align-items:center;overflow:hidden;font-weight:bold}nav img,nav svg{width:2rem;height:2rem;margin-bottom:.25rem}nav a .s{max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.g{display:grid;grid-template-columns:repeat(auto-fill,minmax(7rem,1fr));gap:.5rem}.g a{aspect-ratio:1;display:flex;align-items:center;justify-content:center}.g img{object-fit:contain;max-height:100%;max-width:100%}
+.p{list-style:none;padding:0}.p ul{margin:0}.p>li{display:flex;gap:1rem;margin-bottom:1rem}.p time{display:flex;flex-direction:column;align-items:center;min-width:3rem;margin:.25rem 0}.p time span:first-child{font-size:1.5em;line-height:1}
+.lb{position:fixed;inset:0;background:#000d;display:flex;align-items:center;justify-content:center;z-index:999;cursor:pointer}.lb img{max-width:95vw;max-height:95vh}
+@media(max-width:30em){header .desc{display:none}{% if nav_count >= 6 %}nav{flex-wrap:wrap;row-gap:1.5rem}nav a{flex-basis:{{basis}}%}{% endif %}}
+    </style>
+
+    <style>
+    html.light{background:oklch(0.9602 0.0811 96.96);--tc:#f5e6b3;color:#000}
+    html.light a{color:oklch(0.5579 0.2551 257.69) }
+    html.light a:visited{color:oklch(0.48 0.24 290.93)}
+    html.light a.active,html.light a:active,html.light a:hover{color:oklch(0.6 0.2949 334.15)}
+    html.light p,html.light ul,html.light ol, html.light .desc {color:oklch(0.4 0.1082 58.76) }
+    html.light blockquote,html.light pre,html.light code{background:oklch(0.94 0.1 93.24)}
+    html.light code{color:#000}
+    html.dark{background:#000;--tc:#000;color:#fff}
+    html.dark a{color:oklch(0.87 0.24 165.59)}
+    html.dark a:visited{color:oklch(0.79 0.13 297.29)}
+    html.dark a.active,html.dark a:active,html.dark a:hover{color:oklch(0.76 0.25 344.92)}
+    html.dark p,html.dark ul,html.dark ol, html.dark .desc {color:  oklch(0.92 0.15 94.86)}
+    html.dark img[src$=".svg"],html.dark nav svg,html.dark .theme svg,html.dark footer svg{filter:invert(1)}
+    html.dark blockquote,html.dark pre,html.dark code{background:#222}
+    html.dark code{color:#fff}
+    a.active,a:active,a:hover{text-decoration-style:wavy}
+    .tags a{text-decoration-style:dotted}
+    hr{border:0;border-top:1px dashed;clear:both;margin-bottom:1.5rem}
+    </style>
+    <meta name="theme-color" id="tc"><script>(function(){var m=matchMedia('(prefers-color-scheme:dark)'),t=localStorage.theme||(m.matches?'dark':'light'),h=document.documentElement,c=document.getElementById('tc');h.className=t;function u(){c.content=getComputedStyle(h).getPropertyValue('--tc')}u();window.T=function(){t=t==='dark'?'light':'dark';localStorage.theme=t;h.className=t;u()}})()</script>
+    {% block head_extra %}{% endblock head_extra %}
+</head>
+<body>
+    {% if config.extra.inline_icons %}{{ icons::sprite() }}{% endif %}
+    <header>
+        <div class="s" style="display:flex;justify-content:space-between;align-items:center">
+            <span><strong>{{ config.title }}</strong>{% if config.description %}<span class="desc"> · {{ config.description }}</span>{% endif %}</span>
+            <a href="#" onclick="T();return false" class="theme">{% if config.extra.inline_icons %}{{ icons::icon(name="light.svg") }}{{ icons::icon(name="asleep.svg") }}{% else %}<img src="/icons/light.svg" alt="Light mode"><img src="/icons/asleep.svg" alt="Dark mode">{% endif %}</a>
+        </div>
+        <hr>
+        <nav>
+            {% for menu_link in config.extra.menu_links -%}
+            {% set link_url = menu_link.url | replace(from="$BASE_URL", to=config.base_url) -%}
+            {% set current_url_slash = current_url ~ "/" -%}
+            {% set base_url_slash = config.base_url ~ "/" -%}
+            {% set is_home = link_url == config.base_url or link_url == base_url_slash -%}
+            {% set is_active = current_url == link_url or current_url_slash == link_url or (not is_home and current_url is starting_with(link_url)) -%}
+            <a href="{{ link_url | safe}}" aria-label="{{menu_link.name}}"{% if current_url and is_active %} class="active"{% endif %}>{% if menu_link.icon %}{% if config.extra.inline_icons %}{{ icons::icon(name=menu_link.icon) }}{% else %}<img src="/icons/{{menu_link.icon}}" alt="">{% endif %}{% elif menu_link.emoji %}<span>{{menu_link.emoji}}</span>{% endif %}<span class="s">{{menu_link.name}}</span></a>
+            {% endfor -%}
+        </nav>
+    </header>
+    <hr>
+    <main>
+    {% block content -%}
+    {% endblock -%}
+    </main>
+    <hr>
+    <footer class="s">
+        <span>© {{ config.title }} {{ now() | date(format="%Y") }}</span>
+        {% if config.generate_feeds %}<span>{% if config.extra.inline_icons %}{{ icons::icon(name="rss.svg") }}{% else %}<img src="/icons/rss.svg" alt="">{% endif %} Feeds: <a href="{{ get_url(path='atom.xml',trailing_slash=false)|safe }}">Atom</a> · <a href="{{ get_url(path='rss.xml',trailing_slash=false)|safe }}">RSS</a></span>{% endif %}
+    </footer>
+    {% block body_end -%}
+    {# Analytics: Umami #}
+    {% if config.extra.umami_website_id -%}
+    <script defer src="{{ config.extra.umami_src | default(value='https://cloud.umami.is/script.js') | safe }}" data-website-id="{{ config.extra.umami_website_id }}"{% if config.extra.umami_domains %} data-domains="{{ config.extra.umami_domains }}"{% endif %}></script>
+    {% endif -%}
+    {# Analytics: Google Analytics #}
+    {% if config.extra.google_analytics_tag_id -%}
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ config.extra.google_analytics_tag_id }}"></script>
+    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','{{ config.extra.google_analytics_tag_id }}')</script>
+    {% endif -%}
+    {# Lightbox #}
+    <script>document.querySelectorAll('article img[srcset]').forEach(i=>{i.style.cursor='pointer';i.onclick=()=>{let d=document.createElement('div'),s=i.srcset.split(',').pop().trim().split(' ')[0];d.className='lb';d.innerHTML='<img src="'+s+'">';document.body.style.overflow='hidden';d.onclick=()=>{d.remove();document.body.style.overflow=''};document.body.appendChild(d)}})</script>
+    {% endblock body_end -%}
+</body>
+</html>

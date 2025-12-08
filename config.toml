@@ -1,0 +1,64 @@
+title = "Zap"
+description = "A super minimal, TUI-style Zola theme"
+
+base_url = "https://example.com"
+
+# No SASS - CSS is inline
+compile_sass = false
+
+# Search index enabled
+build_search_index = true
+default_language = "en"
+
+# Feeds
+generate_feeds = true
+feed_filenames = ["atom.xml", "rss.xml"]
+
+# Taxonomies
+taxonomies = [{ name = "tags", feed = true }]
+
+[search]
+index_format = "fuse_javascript"
+
+[markdown]
+highlight_code = true
+
+[slugify]
+paths = "on"
+taxonomies = "on"
+anchors = "on"
+
+[extra]
+# Keywords for SEO
+keywords = "zola, theme, minimal, tui"
+
+# Favicon (optional)
+# favicon = "/favicon.ico"
+
+# Enable inline SVG icons (uses sprite sheet)
+inline_icons = true
+icon_path = "static/icons/"
+icons = ["home", "chat", "color-palette", "idea", "search", "light", "asleep", "rss"]
+
+# Search page path
+search_path = "$BASE_URL/search/"
+
+# Image resizing (responsive images still work)
+image_resizing_disabled = false
+image_format = "auto"
+image_quality = 80
+images_default_size = 1024
+images_sizes = [512, 1024, 2048]
+
+thumbnail_quality = 70
+thumbnail_default_size = 256
+thumbnail_sizes = [128, 256]
+
+# Navigation menu (icon files from /static/icons/)
+menu_links = [
+    { url = "$BASE_URL/", name = "Home", icon = "home.svg" },
+    { url = "$BASE_URL/posts/", name = "Posts", icon = "chat.svg" },
+    { url = "$BASE_URL/gallery/", name = "Gallery", icon = "color-palette.svg" },
+    { url = "$BASE_URL/tags/", name = "Tags", icon = "idea.svg" },
+    { url = "$BASE_URL/search/", name = "Search", icon = "search.svg" },
+]

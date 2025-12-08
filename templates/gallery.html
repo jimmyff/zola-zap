@@ -1,0 +1,17 @@
+{% extends "base.html" -%}
+{% block content -%}
+<h1>{{ section.title }}</h1>
+{{ section.content | safe }}
+{% for year, posts in section.pages | group_by(attribute="year") -%}
+<h2>{{ year }}</h2>
+<div class="g">
+{% for post in posts -%}
+{% if post.extra.images -%}
+{% for image in post.extra.images -%}
+<a href="{{ post.permalink | safe }}" title="{{ post.title }} - {{ post.date }}">{{ images::responsive_thumbnail(path=post.colocated_path, src=image, default_size=128, sizes=[128,256], alt=post.title ~ " - " ~ post.date ) -}}</a>
+{% endfor -%}
+{% endif -%}
+{% endfor -%}
+</div>
+{% endfor -%}
+{% endblock content -%}
