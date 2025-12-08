@@ -1,7 +1,7 @@
 title = "Zap"
 description = "A super minimal, TUI-style Zola theme"
 
-base_url = "https://example.com"
+base_url = "https://www.jimmyff.co.uk/zola-zap"
 
 # No SASS - CSS is inline
 compile_sass = false
