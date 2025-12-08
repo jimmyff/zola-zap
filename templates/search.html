@@ -7,7 +7,7 @@
 <div class="search-results">
   <div class="search-results__items"></div>
 </div>
-<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
+<script src="{{ get_url(path='js/fuse.min.js')|safe }}"></script>
 <script src="{{ get_url(path='search_index.en.js')|safe }}"></script>
 <script src="{{ get_url(path='js/search.js')|safe }}"></script>
 {% endblock content %}
