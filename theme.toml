@@ -2,7 +2,7 @@ name = "Zap"
 description = "A fast, ultra-minimal Zola theme"
 license = "MIT"
 homepage = "https://github.com/jimmyff/zola-zap"
-min_version = "0.17.0"
+min_version = "0.22.0"
 demo = "https://www.jimmyff.co.uk/zola-zap/"
 
 [author]
