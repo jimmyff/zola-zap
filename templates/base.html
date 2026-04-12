@@ -15,6 +15,7 @@
     {% block rss -%}
     <link rel="alternate" type="application/atom+xml" title="{{config.title}}" href="{{ get_url(path='atom.xml',trailing_slash=false)|safe}}">
     {% endblock rss -%}
+    <meta name="color-scheme" content="light dark">
     {% if config.extra.favicon %}<link rel="icon" href="{{ config.extra.favicon }}">{% endif %}
     {% set nav_count = config.extra.menu_links | length -%}
     {% if nav_count >= 6 -%}
@@ -25,13 +26,13 @@
     {% set basis = (100 / items_per_row) | round -%}
     <style>
 html{font-family:monospace;font-size:1rem;line-height:1.5;margin:auto;max-width:70ch;padding:1.5rem 1em 3em}
-img{max-width:100%}img:not([src$=".svg"]),article>div,blockquote,pre{border-radius:.3rem}img[src$="#pixelate"]{image-rendering:pixelated}
+img{max-width:100%}img:not([src$=".svg"]),article>div,pre{border-radius:.3rem}img[src$="#pixelate"]{image-rendering:pixelated}
 h1,h2,h3,h4,h5,h6{font-size:inherit;margin:2rem 0 1em}
-h1::before{content:'# '}
-h2::before{content:'## '}
-h3::before{content:'### '}
+h1::before{content:'# '/''}
+h2::before{content:'## '/''}
+h3::before{content:'### '/''}
 p{text-align:justify}p,ul,ol,.g,article>footer,article>header{margin:0 0 2em}
-pre,blockquote{padding:1.5rem;margin:0 0 1.5rem}pre{overflow-x:auto}pre code{background:0!important}blockquote>*:last-child{margin-bottom:0}
+pre,blockquote{padding:1.5rem;margin:0 0 1.5rem}pre{overflow-x:auto}pre code{background:0!important}blockquote{border-left:3px solid}blockquote>*:last-child{margin-bottom:0}
 article>img,article>p>img,article>div{display:block;margin-bottom:1.5rem;width:100%}
 .yt{aspect-ratio:16/9;width:100%;overflow:hidden}.yt iframe{width:100%;height:100%;border:0}
 .s{font-size:.85rem}
@@ -67,6 +68,7 @@ nav{display:flex;gap:.5rem;margin:1.5rem 0}nav a{flex:1;display:flex;flex-direct
     a.active,a:active,a:hover{text-decoration-style:wavy}
     .tags a{text-decoration-style:dotted}
     hr{border:0;border-top:1px dashed;clear:both;margin-bottom:1.5rem}
+    @media print{*{color:#000!important}html[class][class] *{background:none!important}html{max-width:none;padding:0;background:#fff!important}.theme{display:none}img,pre{break-inside:avoid}}
     </style>
     <meta name="theme-color" id="tc"><script>(function(){var m=matchMedia('(prefers-color-scheme:dark)'),t=localStorage.theme||(m.matches?'dark':'light'),h=document.documentElement,c=document.getElementById('tc');h.className=t;function u(){c.content=getComputedStyle(h).getPropertyValue('--tc')}u();window.zb=function(){t=t==='dark'?'light':'dark';localStorage.theme=t;h.className=t;u()}})()</script>
     {% block head_extra %}{% endblock head_extra %}
@@ -86,7 +88,7 @@ nav{display:flex;gap:.5rem;margin:1.5rem 0}nav a{flex:1;display:flex;flex-direct
             {% set base_url_slash = config.base_url ~ "/" -%}
             {% set is_home = link_url == config.base_url or link_url == base_url_slash -%}
             {% set is_active = current_url == link_url or current_url_slash == link_url or (not is_home and current_url is starting_with(link_url)) -%}
-            <a href="{{ link_url | safe}}" aria-label="{{menu_link.name}}"{% if current_url and is_active %} class="active"{% endif %}>{% if menu_link.icon %}{% if config.extra.inline_icons %}{{ icons::icon(name=menu_link.icon) }}{% else %}<img src="/icons/{{menu_link.icon}}" alt="">{% endif %}{% elif menu_link.emoji %}<span>{{menu_link.emoji}}</span>{% endif %}<span class="s">{{menu_link.name}}</span></a>
+            <a href="{{ link_url | safe}}" aria-label="{{menu_link.name}}"{% if current_url and is_active %} class="active" aria-current="page"{% endif %}>{% if menu_link.icon %}{% if config.extra.inline_icons %}{{ icons::icon(name=menu_link.icon) }}{% else %}<img src="/icons/{{menu_link.icon}}" alt="">{% endif %}{% elif menu_link.emoji %}<span>{{menu_link.emoji}}</span>{% endif %}<span class="s">{{menu_link.name}}</span></a>
             {% endfor -%}
         </nav>
     </header>
