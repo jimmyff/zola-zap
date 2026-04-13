@@ -68,7 +68,7 @@ nav{display:flex;gap:.5rem;margin:1.5rem 0}nav a{flex:1;display:flex;flex-direct
     a.active,a:active,a:hover{text-decoration-style:wavy}
     .tags a{text-decoration-style:dotted}
     hr{border:0;border-top:1px dashed;clear:both;margin-bottom:1.5rem}
-    @media print{*{color:#000!important}html[class][class] *{background:none!important}html{max-width:none;padding:0;background:#fff!important}.theme{display:none}img,pre{break-inside:avoid}}
+    @media print{*{color:#000!important;filter:none!important}html[class][class] *{background:none!important}html{font-size:.8rem;max-width:none;padding:0;background:#fff!important}.theme{display:none}img,pre{break-inside:avoid}}
     </style>
     <meta name="theme-color" id="tc"><script>(function(){var m=matchMedia('(prefers-color-scheme:dark)'),t=localStorage.theme||(m.matches?'dark':'light'),h=document.documentElement,c=document.getElementById('tc');h.className=t;function u(){c.content=getComputedStyle(h).getPropertyValue('--tc')}u();window.zb=function(){t=t==='dark'?'light':'dark';localStorage.theme=t;h.className=t;u()}})()</script>
     {% block head_extra %}{% endblock head_extra %}

@@ -13,6 +13,7 @@ A fast, ultra-minimal Zola theme by [jimmyff](https://www.jimmyff.co.uk). Perfec
 - Click-to-enlarge lightbox
 - Responsive images with srcset
 - Light/dark mode toggle
+- Print-friendly styling
 - OpenGraph & Twitter Cards
 - Atom & RSS feeds
 - Fuse.js search
