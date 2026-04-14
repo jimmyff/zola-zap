@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>Zap - Test</title>
+      <link>https://www.jimmyff.co.uk/zola-zap</link>
+      <description>A fast, ultra-minimal theme for Zola</description>
+      <generator>Zola</generator>
+      <language>en</language>
+      <atom:link href="https://www.jimmyff.co.uk/zola-zap/tags/test/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Fri, 03 Apr 2026 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>Code samples</title>
+          <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://www.jimmyff.co.uk/zola-zap/posts/code-samples/</link>
+          <guid>https://www.jimmyff.co.uk/zola-zap/posts/code-samples/</guid>
+          <description xml:base="https://www.jimmyff.co.uk/zola-zap/posts/code-samples/">&lt;p&gt;Code highlighting respects Zap&#x27;s brightness toggle - try switching between light and dark modes.&lt;&#x2F;p&gt;</description>
+      </item>
+    </channel>
+</rss>

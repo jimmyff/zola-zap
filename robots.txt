@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Allow: /
+Sitemap: https://www.jimmyff.co.uk/zola-zap/sitemap.xml

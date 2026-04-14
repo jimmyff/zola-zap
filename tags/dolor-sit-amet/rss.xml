@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>Zap - dolor sit amet</title>
+      <link>https://www.jimmyff.co.uk/zola-zap</link>
+      <description>A fast, ultra-minimal theme for Zola</description>
+      <generator>Zola</generator>
+      <language>en</language>
+      <atom:link href="https://www.jimmyff.co.uk/zola-zap/tags/dolor-sit-amet/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Sat, 05 Feb 2022 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>Lorem ipsum dolor sit amet</title>
+          <pubDate>Sat, 05 Feb 2022 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://www.jimmyff.co.uk/zola-zap/posts/lorem-ipsum/</link>
+          <guid>https://www.jimmyff.co.uk/zola-zap/posts/lorem-ipsum/</guid>
+          <description xml:base="https://www.jimmyff.co.uk/zola-zap/posts/lorem-ipsum/">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu feugiat sapien. Aenean ligula nunc, laoreet id sem in, interdum bibendum felis. Donec vel dui neque. Praesent ac sem ut justo volutpat rutrum a imperdiet tellus. Nam lobortis massa non hendrerit hendrerit. Vivamus porttitor dignissim turpis, eget aliquam urna tincidunt non. Aliquam et fringilla turpis. Nullam eros est, eleifend in ornare sed, hendrerit eget est. Aliquam tellus felis, suscipit vitae ex vel, fringilla tempus massa. Nulla facilisi. Pellentesque lobortis consequat lectus. Maecenas ac libero elit.&lt;&#x2F;p&gt;</description>
+      </item>
+    </channel>
+</rss>

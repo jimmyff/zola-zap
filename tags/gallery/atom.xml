@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Zap - gallery</title>
+    <subtitle>A fast, ultra-minimal theme for Zola</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://www.jimmyff.co.uk/zola-zap/tags/gallery/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://www.jimmyff.co.uk/zola-zap"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-01-30T00:00:00+00:00</updated>
+    <id>https://www.jimmyff.co.uk/zola-zap/tags/gallery/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Luctus dolor</title>
+        <published>2023-01-30T00:00:00+00:00</published>
+        <updated>2023-01-30T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://www.jimmyff.co.uk/zola-zap/gallery/luctus-dolor/"/>
+        <id>https://www.jimmyff.co.uk/zola-zap/gallery/luctus-dolor/</id>
+        
+        <content type="html" xml:base="https://www.jimmyff.co.uk/zola-zap/gallery/luctus-dolor/">
+
+
+
+&lt;img alt=&quot;Example image&quot; title=&quot;Example image&quot; src=&quot;https:&#x2F;&#x2F;www.jimmyff.co.uk&#x2F;zola-zap&#x2F;processed_images&#x2F;1.376d4adb44bc32f8.png&quot; srcset=&quot;https:&#x2F;&#x2F;www.jimmyff.co.uk&#x2F;zola-zap&#x2F;processed_images&#x2F;1.d5d70890a2a8f705.png 512w&quot; class=&quot;&quot; &#x2F;&gt;
+
+&lt;p&gt;Ut luctus dolor ut tortor hendrerit, sed hendrerit augue scelerisque. Suspendisse quis sodales dui, at tempus ante. Nulla at tempor metus. Aliquam vitae rutrum diam. Curabitur iaculis massa dui, quis varius nulla finibus a. Praesent eu blandit justo. Suspendisse pharetra, arcu in rhoncus rutrum, magna magna viverra erat, eget vestibulum enim tellus id dui. Nunc vel dui et arcu posuere maximus. Mauris quam quam, bibendum sed libero nec, tempus hendrerit arcu. Suspendisse sed gravida orci. Fusce tempor arcu ac est pretium porttitor. Aenean consequat risus venenatis sem aliquam, at sollicitudin nulla semper. Aenean bibendum cursus hendrerit. Nulla congue urna nec finibus bibendum. Donec porta tincidunt ligula non ultricies.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Suspendisse quis</title>
+        <published>2023-01-29T00:00:00+00:00</published>
+        <updated>2023-01-29T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://www.jimmyff.co.uk/zola-zap/gallery/suspendisse-quis/"/>
+        <id>https://www.jimmyff.co.uk/zola-zap/gallery/suspendisse-quis/</id>
+        
+        <content type="html" xml:base="https://www.jimmyff.co.uk/zola-zap/gallery/suspendisse-quis/">
+
+
+
+&lt;img alt=&quot;Example image&quot; title=&quot;Example image&quot; src=&quot;https:&#x2F;&#x2F;www.jimmyff.co.uk&#x2F;zola-zap&#x2F;processed_images&#x2F;2.5600f0581f9348be.png&quot; srcset=&quot;https:&#x2F;&#x2F;www.jimmyff.co.uk&#x2F;zola-zap&#x2F;processed_images&#x2F;2.418c3aa859200b2e.png 512w&quot; class=&quot;&quot; &#x2F;&gt;
+
+&lt;p&gt;Suspendisse quis sodales dui, at tempus ante. Nulla at tempor metus. Aliquam vitae rutrum diam. Curabitur iaculis massa dui, quis varius nulla finibus a. Praesent eu blandit justo. Suspendisse pharetra, arcu in rhoncus rutrum, magna magna viverra erat, eget vestibulum enim tellus id dui. Nunc vel dui et arcu posuere maximus. Mauris quam quam, bibendum sed libero nec, tempus hendrerit arcu.&lt;&#x2F;p&gt;
+
+
+
+
+&lt;img alt=&quot;Example image&quot; title=&quot;Example image&quot; src=&quot;https:&#x2F;&#x2F;www.jimmyff.co.uk&#x2F;zola-zap&#x2F;processed_images&#x2F;3.3382c25688f3f123.png&quot; srcset=&quot;https:&#x2F;&#x2F;www.jimmyff.co.uk&#x2F;zola-zap&#x2F;processed_images&#x2F;3.6dbbe3b876587b8a.png 512w&quot; class=&quot;&quot; &#x2F;&gt;
+
+&lt;p&gt;Suspendisse sed gravida orci. Fusce tempor arcu ac est pretium porttitor. Aenean consequat risus venenatis sem aliquam, at sollicitudin nulla semper. Aenean bibendum cursus hendrerit. Nulla congue urna nec finibus bibendum. Donec porta tincidunt ligula non ultricies.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Responsive images</title>
+        <published>2023-01-12T00:00:00+00:00</published>
+        <updated>2023-01-12T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://www.jimmyff.co.uk/zola-zap/posts/responsive-images/"/>
+        <id>https://www.jimmyff.co.uk/zola-zap/posts/responsive-images/</id>
+        
+        <content type="html" xml:base="https://www.jimmyff.co.uk/zola-zap/posts/responsive-images/">&lt;p&gt;You can include responsive images using the image shortcode:&lt;&#x2F;p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;#123;&amp;#123; image(src=&quot;yourimage.jpg&quot;, alt=&quot;This is my image&quot;) &amp;#125;&amp;#125;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+
+
+
+
+&lt;img alt=&quot;Example image&quot; title=&quot;Example image&quot; src=&quot;https:&#x2F;&#x2F;www.jimmyff.co.uk&#x2F;zola-zap&#x2F;processed_images&#x2F;1.e18e2050077ae54b.png&quot; srcset=&quot;https:&#x2F;&#x2F;www.jimmyff.co.uk&#x2F;zola-zap&#x2F;processed_images&#x2F;1.0e9ddaaedabf67bc.png 512w&quot; class=&quot;&quot; &#x2F;&gt;
+
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Quisque viverra</title>
+        <published>2022-01-17T00:00:00+00:00</published>
+        <updated>2022-01-17T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://www.jimmyff.co.uk/zola-zap/gallery/quisque-viverra/"/>
+        <id>https://www.jimmyff.co.uk/zola-zap/gallery/quisque-viverra/</id>
+        
+        <content type="html" xml:base="https://www.jimmyff.co.uk/zola-zap/gallery/quisque-viverra/">&lt;p&gt;Quisque viverra a eros id auctor. Proin id nibh ut nisl dignissim pellentesque et ac mi. Nullam mattis urna quis consequat bibendum. Donec pretium dui elit, a semper purus tristique et. Mauris euismod nisl eu vehicula facilisis. Maecenas facilisis non massa non scelerisque. Integer malesuada cursus erat eu viverra.&lt;&#x2F;p&gt;
+
+
+
+
+&lt;img alt=&quot;Example image&quot; title=&quot;Example image&quot; src=&quot;https:&#x2F;&#x2F;www.jimmyff.co.uk&#x2F;zola-zap&#x2F;processed_images&#x2F;4.716bac07650abe69.png&quot; srcset=&quot;https:&#x2F;&#x2F;www.jimmyff.co.uk&#x2F;zola-zap&#x2F;processed_images&#x2F;4.a2b2ab0c8f820da1.png 512w&quot; class=&quot;&quot; &#x2F;&gt;
+
+&lt;p&gt;Duis ligula mi, eleifend vel justo id, laoreet porttitor ex. Etiam ultricies lacus lorem, sed aliquam nulla blandit in. Maecenas vel facilisis neque, vitae fringilla eros. In justo nibh, pellentesque sed faucibus nec, varius sit amet risus.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

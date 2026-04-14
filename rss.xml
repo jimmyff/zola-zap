@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>Zap</title>
+      <link>https://www.jimmyff.co.uk/zola-zap</link>
+      <description>A fast, ultra-minimal theme for Zola</description>
+      <generator>Zola</generator>
+      <language>en</language>
+      <atom:link href="https://www.jimmyff.co.uk/zola-zap/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Fri, 03 Apr 2026 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>Code samples</title>
+          <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://www.jimmyff.co.uk/zola-zap/posts/code-samples/</link>
+          <guid>https://www.jimmyff.co.uk/zola-zap/posts/code-samples/</guid>
+          <description xml:base="https://www.jimmyff.co.uk/zola-zap/posts/code-samples/">&lt;p&gt;Code highlighting respects Zap&#x27;s brightness toggle - try switching between light and dark modes.&lt;&#x2F;p&gt;</description>
+      </item>
+      <item>
+          <title>Luctus dolor</title>
+          <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://www.jimmyff.co.uk/zola-zap/gallery/luctus-dolor/</link>
+          <guid>https://www.jimmyff.co.uk/zola-zap/gallery/luctus-dolor/</guid>
+          <description xml:base="https://www.jimmyff.co.uk/zola-zap/gallery/luctus-dolor/">
+
+
+
+&lt;img alt=&quot;Example image&quot; title=&quot;Example image&quot; src=&quot;https:&#x2F;&#x2F;www.jimmyff.co.uk&#x2F;zola-zap&#x2F;processed_images&#x2F;1.376d4adb44bc32f8.png&quot; srcset=&quot;https:&#x2F;&#x2F;www.jimmyff.co.uk&#x2F;zola-zap&#x2F;processed_images&#x2F;1.d5d70890a2a8f705.png 512w&quot; class=&quot;&quot; &#x2F;&gt;
+
+&lt;p&gt;Ut luctus dolor ut tortor hendrerit, sed hendrerit augue scelerisque. Suspendisse quis sodales dui, at tempus ante. Nulla at tempor metus. Aliquam vitae rutrum diam. Curabitur iaculis massa dui, quis varius nulla finibus a. Praesent eu blandit justo. Suspendisse pharetra, arcu in rhoncus rutrum, magna magna viverra erat, eget vestibulum enim tellus id dui. Nunc vel dui et arcu posuere maximus. Mauris quam quam, bibendum sed libero nec, tempus hendrerit arcu. Suspendisse sed gravida orci. Fusce tempor arcu ac est pretium porttitor. Aenean consequat risus venenatis sem aliquam, at sollicitudin nulla semper. Aenean bibendum cursus hendrerit. Nulla congue urna nec finibus bibendum. Donec porta tincidunt ligula non ultricies.&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>Suspendisse quis</title>
+          <pubDate>Sun, 29 Jan 2023 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://www.jimmyff.co.uk/zola-zap/gallery/suspendisse-quis/</link>
+          <guid>https://www.jimmyff.co.uk/zola-zap/gallery/suspendisse-quis/</guid>
+          <description xml:base="https://www.jimmyff.co.uk/zola-zap/gallery/suspendisse-quis/">
+
+
+
+&lt;img alt=&quot;Example image&quot; title=&quot;Example image&quot; src=&quot;https:&#x2F;&#x2F;www.jimmyff.co.uk&#x2F;zola-zap&#x2F;processed_images&#x2F;2.5600f0581f9348be.png&quot; srcset=&quot;https:&#x2F;&#x2F;www.jimmyff.co.uk&#x2F;zola-zap&#x2F;processed_images&#x2F;2.418c3aa859200b2e.png 512w&quot; class=&quot;&quot; &#x2F;&gt;
+
+&lt;p&gt;Suspendisse quis sodales dui, at tempus ante. Nulla at tempor metus. Aliquam vitae rutrum diam. Curabitur iaculis massa dui, quis varius nulla finibus a. Praesent eu blandit justo. Suspendisse pharetra, arcu in rhoncus rutrum, magna magna viverra erat, eget vestibulum enim tellus id dui. Nunc vel dui et arcu posuere maximus. Mauris quam quam, bibendum sed libero nec, tempus hendrerit arcu.&lt;&#x2F;p&gt;
+
+
+
+
+&lt;img alt=&quot;Example image&quot; title=&quot;Example image&quot; src=&quot;https:&#x2F;&#x2F;www.jimmyff.co.uk&#x2F;zola-zap&#x2F;processed_images&#x2F;3.3382c25688f3f123.png&quot; srcset=&quot;https:&#x2F;&#x2F;www.jimmyff.co.uk&#x2F;zola-zap&#x2F;processed_images&#x2F;3.6dbbe3b876587b8a.png 512w&quot; class=&quot;&quot; &#x2F;&gt;
+
+&lt;p&gt;Suspendisse sed gravida orci. Fusce tempor arcu ac est pretium porttitor. Aenean consequat risus venenatis sem aliquam, at sollicitudin nulla semper. Aenean bibendum cursus hendrerit. Nulla congue urna nec finibus bibendum. Donec porta tincidunt ligula non ultricies.&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>Typography</title>
+          <pubDate>Mon, 16 Jan 2023 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://www.jimmyff.co.uk/zola-zap/posts/typography/</link>
+          <guid>https://www.jimmyff.co.uk/zola-zap/posts/typography/</guid>
+          <description xml:base="https://www.jimmyff.co.uk/zola-zap/posts/typography/">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;heading-1&quot;&gt;Heading 1&lt;&#x2F;h1&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;heading-2&quot;&gt;Heading 2&lt;&#x2F;h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;heading-3&quot;&gt;Heading 3&lt;&#x2F;h3&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;This is &lt;a rel=&quot;external&quot; title=&quot;Title&quot; href=&quot;http:&#x2F;&#x2F;example.com&#x2F;&quot;&gt;an example link&lt;&#x2F;a&gt;. Here is &lt;strong&gt;bold text&lt;&#x2F;strong&gt; and &lt;em&gt;emphasised text&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Following is the syntax highlighted code block&lt;&#x2F;p&gt;
+&lt;pre class=&quot;giallo&quot; style=&quot;color-scheme: light dark; color: light-dark(#24292E, #E1E4E8); background-color: light-dark(#FFFFFF, #24292E);&quot;&gt;&lt;code data-lang=&quot;rust&quot;&gt;&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: light-dark(#D73A49, #F97583);&quot;&gt;fn&lt;&#x2F;span&gt;&lt;span style=&quot;color: light-dark(#6F42C1, #B392F0);&quot;&gt; main&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span&gt;)&lt;&#x2F;span&gt;&lt;span&gt; {&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: light-dark(#D73A49, #F97583);&quot;&gt;    let&lt;&#x2F;span&gt;&lt;span&gt; x&lt;&#x2F;span&gt;&lt;span style=&quot;color: light-dark(#D73A49, #F97583);&quot;&gt; =&lt;&#x2F;span&gt;&lt;span style=&quot;color: light-dark(#005CC5, #79B8FF);&quot;&gt; 5&lt;&#x2F;span&gt;&lt;span style=&quot;color: light-dark(#6F42C1, #B392F0);&quot;&gt;u32&lt;&#x2F;span&gt;&lt;span&gt;;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: light-dark(#D73A49, #F97583);&quot;&gt;    let&lt;&#x2F;span&gt;&lt;span&gt; y&lt;&#x2F;span&gt;&lt;span style=&quot;color: light-dark(#D73A49, #F97583);&quot;&gt; =&lt;&#x2F;span&gt;&lt;span&gt; {&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: light-dark(#D73A49, #F97583);&quot;&gt;        let&lt;&#x2F;span&gt;&lt;span&gt; x_squared&lt;&#x2F;span&gt;&lt;span style=&quot;color: light-dark(#D73A49, #F97583);&quot;&gt; =&lt;&#x2F;span&gt;&lt;span&gt; x&lt;&#x2F;span&gt;&lt;span style=&quot;color: light-dark(#D73A49, #F97583);&quot;&gt; *&lt;&#x2F;span&gt;&lt;span&gt; x&lt;&#x2F;span&gt;&lt;span&gt;;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: light-dark(#D73A49, #F97583);&quot;&gt;        let&lt;&#x2F;span&gt;&lt;span&gt; x_cube&lt;&#x2F;span&gt;&lt;span style=&quot;color: light-dark(#D73A49, #F97583);&quot;&gt; =&lt;&#x2F;span&gt;&lt;span&gt; x_squared&lt;&#x2F;span&gt;&lt;span style=&quot;color: light-dark(#D73A49, #F97583);&quot;&gt; *&lt;&#x2F;span&gt;&lt;span&gt; x&lt;&#x2F;span&gt;&lt;span&gt;;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: light-dark(#6A737D, #6A737D);&quot;&gt;        &#x2F;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color: light-dark(#6A737D, #6A737D);&quot;&gt; This expression will be assigned to `y`&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;        x_cube&lt;&#x2F;span&gt;&lt;span style=&quot;color: light-dark(#D73A49, #F97583);&quot;&gt; +&lt;&#x2F;span&gt;&lt;span&gt; x_squared&lt;&#x2F;span&gt;&lt;span style=&quot;color: light-dark(#D73A49, #F97583);&quot;&gt; +&lt;&#x2F;span&gt;&lt;span&gt; x&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;    }&lt;&#x2F;span&gt;&lt;span&gt;;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: light-dark(#D73A49, #F97583);&quot;&gt;    let&lt;&#x2F;span&gt;&lt;span&gt; z&lt;&#x2F;span&gt;&lt;span style=&quot;color: light-dark(#D73A49, #F97583);&quot;&gt; =&lt;&#x2F;span&gt;&lt;span&gt; {&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: light-dark(#6A737D, #6A737D);&quot;&gt;        &#x2F;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color: light-dark(#6A737D, #6A737D);&quot;&gt; The semicolon suppresses this expression and `()` is assigned to `z`&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: light-dark(#005CC5, #79B8FF);&quot;&gt;        2&lt;&#x2F;span&gt;&lt;span style=&quot;color: light-dark(#D73A49, #F97583);&quot;&gt; *&lt;&#x2F;span&gt;&lt;span&gt; x&lt;&#x2F;span&gt;&lt;span&gt;;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;    }&lt;&#x2F;span&gt;&lt;span&gt;;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: light-dark(#6F42C1, #B392F0);&quot;&gt;    println!&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color: light-dark(#032F62, #9ECBFF);&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color: light-dark(#032F62, #9ECBFF);&quot;&gt;x is &lt;&#x2F;span&gt;&lt;span style=&quot;color: light-dark(#032F62, #9ECBFF);&quot;&gt;{&lt;&#x2F;span&gt;&lt;span style=&quot;color: light-dark(#032F62, #9ECBFF);&quot;&gt;:?&lt;&#x2F;span&gt;&lt;span style=&quot;color: light-dark(#032F62, #9ECBFF);&quot;&gt;}&lt;&#x2F;span&gt;&lt;span style=&quot;color: light-dark(#032F62, #9ECBFF);&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;,&lt;&#x2F;span&gt;&lt;span&gt; x&lt;&#x2F;span&gt;&lt;span&gt;)&lt;&#x2F;span&gt;&lt;span&gt;;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: light-dark(#6F42C1, #B392F0);&quot;&gt;    println!&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color: light-dark(#032F62, #9ECBFF);&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color: light-dark(#032F62, #9ECBFF);&quot;&gt;y is &lt;&#x2F;span&gt;&lt;span style=&quot;color: light-dark(#032F62, #9ECBFF);&quot;&gt;{&lt;&#x2F;span&gt;&lt;span style=&quot;color: light-dark(#032F62, #9ECBFF);&quot;&gt;:?&lt;&#x2F;span&gt;&lt;span style=&quot;color: light-dark(#032F62, #9ECBFF);&quot;&gt;}&lt;&#x2F;span&gt;&lt;span style=&quot;color: light-dark(#032F62, #9ECBFF);&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;,&lt;&#x2F;span&gt;&lt;span&gt; y&lt;&#x2F;span&gt;&lt;span&gt;)&lt;&#x2F;span&gt;&lt;span&gt;;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span style=&quot;color: light-dark(#6F42C1, #B392F0);&quot;&gt;    println!&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color: light-dark(#032F62, #9ECBFF);&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color: light-dark(#032F62, #9ECBFF);&quot;&gt;z is &lt;&#x2F;span&gt;&lt;span style=&quot;color: light-dark(#032F62, #9ECBFF);&quot;&gt;{&lt;&#x2F;span&gt;&lt;span style=&quot;color: light-dark(#032F62, #9ECBFF);&quot;&gt;:?&lt;&#x2F;span&gt;&lt;span style=&quot;color: light-dark(#032F62, #9ECBFF);&quot;&gt;}&lt;&#x2F;span&gt;&lt;span style=&quot;color: light-dark(#032F62, #9ECBFF);&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;,&lt;&#x2F;span&gt;&lt;span&gt; z&lt;&#x2F;span&gt;&lt;span&gt;)&lt;&#x2F;span&gt;&lt;span&gt;;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;span&gt;}&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;giallo-l&quot;&gt;&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Inline code looks like &lt;code&gt;this&lt;&#x2F;code&gt; and can include things like &lt;code&gt;fn main()&lt;&#x2F;code&gt; or &lt;code&gt;const x = 42&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Blockquotes:&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&#x27;I want to do with you what spring does with the cherry trees.&#x27; — Pablo Neruda&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Lorem ipsum &lt;em&gt;dolor sit amet&lt;&#x2F;em&gt;, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Unordered list&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Red&lt;&#x2F;li&gt;
+&lt;li&gt;Green&lt;&#x2F;li&gt;
+&lt;li&gt;Blue&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Ordered list&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Red&lt;&#x2F;li&gt;
+&lt;li&gt;Green&lt;&#x2F;li&gt;
+&lt;li&gt;Blue&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+</description>
+      </item>
+      <item>
+          <title>Responsive images</title>
+          <pubDate>Thu, 12 Jan 2023 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://www.jimmyff.co.uk/zola-zap/posts/responsive-images/</link>
+          <guid>https://www.jimmyff.co.uk/zola-zap/posts/responsive-images/</guid>
+          <description xml:base="https://www.jimmyff.co.uk/zola-zap/posts/responsive-images/">&lt;p&gt;You can include responsive images using the image shortcode:&lt;&#x2F;p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;#123;&amp;#123; image(src=&quot;yourimage.jpg&quot;, alt=&quot;This is my image&quot;) &amp;#125;&amp;#125;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+
+
+
+
+&lt;img alt=&quot;Example image&quot; title=&quot;Example image&quot; src=&quot;https:&#x2F;&#x2F;www.jimmyff.co.uk&#x2F;zola-zap&#x2F;processed_images&#x2F;1.e18e2050077ae54b.png&quot; srcset=&quot;https:&#x2F;&#x2F;www.jimmyff.co.uk&#x2F;zola-zap&#x2F;processed_images&#x2F;1.0e9ddaaedabf67bc.png 512w&quot; class=&quot;&quot; &#x2F;&gt;
+
+</description>
+      </item>
+      <item>
+          <title>Lorem ipsum dolor sit amet</title>
+          <pubDate>Sat, 05 Feb 2022 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://www.jimmyff.co.uk/zola-zap/posts/lorem-ipsum/</link>
+          <guid>https://www.jimmyff.co.uk/zola-zap/posts/lorem-ipsum/</guid>
+          <description xml:base="https://www.jimmyff.co.uk/zola-zap/posts/lorem-ipsum/">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu feugiat sapien. Aenean ligula nunc, laoreet id sem in, interdum bibendum felis. Donec vel dui neque. Praesent ac sem ut justo volutpat rutrum a imperdiet tellus. Nam lobortis massa non hendrerit hendrerit. Vivamus porttitor dignissim turpis, eget aliquam urna tincidunt non. Aliquam et fringilla turpis. Nullam eros est, eleifend in ornare sed, hendrerit eget est. Aliquam tellus felis, suscipit vitae ex vel, fringilla tempus massa. Nulla facilisi. Pellentesque lobortis consequat lectus. Maecenas ac libero elit.&lt;&#x2F;p&gt;</description>
+      </item>
+      <item>
+          <title>Quisque viverra</title>
+          <pubDate>Mon, 17 Jan 2022 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://www.jimmyff.co.uk/zola-zap/gallery/quisque-viverra/</link>
+          <guid>https://www.jimmyff.co.uk/zola-zap/gallery/quisque-viverra/</guid>
+          <description xml:base="https://www.jimmyff.co.uk/zola-zap/gallery/quisque-viverra/">&lt;p&gt;Quisque viverra a eros id auctor. Proin id nibh ut nisl dignissim pellentesque et ac mi. Nullam mattis urna quis consequat bibendum. Donec pretium dui elit, a semper purus tristique et. Mauris euismod nisl eu vehicula facilisis. Maecenas facilisis non massa non scelerisque. Integer malesuada cursus erat eu viverra.&lt;&#x2F;p&gt;
+
+
+
+
+&lt;img alt=&quot;Example image&quot; title=&quot;Example image&quot; src=&quot;https:&#x2F;&#x2F;www.jimmyff.co.uk&#x2F;zola-zap&#x2F;processed_images&#x2F;4.716bac07650abe69.png&quot; srcset=&quot;https:&#x2F;&#x2F;www.jimmyff.co.uk&#x2F;zola-zap&#x2F;processed_images&#x2F;4.a2b2ab0c8f820da1.png 512w&quot; class=&quot;&quot; &#x2F;&gt;
+
+&lt;p&gt;Duis ligula mi, eleifend vel justo id, laoreet porttitor ex. Etiam ultricies lacus lorem, sed aliquam nulla blandit in. Maecenas vel facilisis neque, vitae fringilla eros. In justo nibh, pellentesque sed faucibus nec, varius sit amet risus.&lt;&#x2F;p&gt;
+</description>
+      </item>
+    </channel>
+</rss>
